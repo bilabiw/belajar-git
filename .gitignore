@@ -1,3 +1,4 @@
+.env
 # File sensitif - JANGAN pernah di-commit
   .env
   .env.local
