@@ -1,0 +1,31 @@
+# File sensitif - JANGAN pernah di-commit
+  .env
+  .env.local
+  .env.production
+
+  # Python
+  __pycache__/
+  *.py[cod]
+  *.egg-info/
+  venv/
+  .venv/
+
+  # Log files
+  *.log
+  logs/
+
+  # Node.js (jika pakai JS)
+  node_modules/
+  npm-debug.log
+
+  # Database lokal
+  *.sqlite3
+  *.db
+
+  # OS files
+  .DS_Store
+  Thumbs.db
+
+  # IDE
+  .vscode/
+  .idea/
