@@ -1,0 +1,32 @@
+/* Style Dashboard - Web Prediksi Kemiskinan */
+
+:root {
+  --color-primary: #4F46E5;
+  --color-danger: #EF4444;
+  --color-warning: #F59E0B;
+  --color-success: #10B981;
+  --color-bg: #F9FAFB;
+}
+
+.dashboard {
+  background-color: var(--color-bg);
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-left: 4px solid var(--color-primary);
+}
+
+.risk-high   { border-left-color: var(--color-danger); }
+.risk-medium { border-left-color: var(--color-warning); }
+.risk-low    { border-left-color: var(--color-success); }
+
+.loading-text {
+  color: var(--color-primary);
+  font-style: italic;
+}
